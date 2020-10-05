@@ -1,0 +1,84 @@
+.foodexample{
+	float: left;
+	width: 100%;
+	display: block;
+}
+.lcontent{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 400px;
+	width: 45%;
+	float: left;
+	background: #FFB6C1;
+	display: inline;
+}
+.left{
+	position: relative;
+	margin: 25px auto;
+	display: block;
+	background: #FFDAB9;
+	width: 300px;
+	height:310px;
+	border: 2px solid #ffffff;
+}
+.left h4{
+	margin: 0px;
+	padding: 0px;
+	color: #FFA500;
+}
+.left p{
+	margin-top: 5px;
+	padding: 0px;
+	
+	font-family: arial,"times new roman";
+	font-style: italic;
+	font-weight: 400;
+}
+.left img{
+	display: block;
+	width: 270px;
+	height: 180px;
+	position: relative;
+	margin: auto;
+	border: 1px solid #ffffff;
+}
+
+
+.rcontent{
+	
+	margin-top: 70px;
+	height: 400px;
+	width: 45%;
+	float: right;
+	background: #FFB6C1;
+}
+.left{
+	position: relative;
+	margin: 25px auto;
+	display: block;
+	background: #FFDAB9;
+	width: 300px;
+	height:310px;
+	border: 2px solid #ffffff;
+}
+.left h4{
+	margin: 0px;
+	padding: 0px;
+	color: #FFA500;
+}
+.left p{
+	margin-top: 5px;
+	padding: 0px;
+	
+	font-family: arial,"times new roman";
+	font-style: italic;
+	font-weight: 400;
+}
+.left img{
+	display: block;
+	width: 270px;
+	height: 180px;
+	position: relative;
+	margin: auto;
+	border: 1px solid #ffffff;
+}

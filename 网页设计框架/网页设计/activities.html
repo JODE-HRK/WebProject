@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>张家界</title>
+		<link href="css/index.css"rel="stylesheet" type="text/css"/>
+		<link href="css/style.css"rel="stylesheet" type="text/css" />
+		<link href="css/activities.css"rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/player.js"></script>
+		<script type="text/javascript" src="js/playerslider.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			// 焦点图片水平滚动
+			$("#slider1").Xslider({
+				// 默认配置
+				affect: 'scrollx', //效果  有scrollx|scrolly|fade|none
+				speed: 800, //动画速度
+				space: 6000, //时间间隔
+				auto: true, //自动滚动
+				trigger: 'mouseover', //触发事件 注意用mouseover代替hover
+				conbox: '.conbox', //内容容器id或class
+				ctag: 'div', //内容标签 默认为<a>
+				switcher: '.switcher', //切换触发器id或class
+				stag: 'a', //切换器标签 默认为a
+				current:'cur', //当前切换器样式名称
+				rand:false //是否随机指定默认幻灯图片
+			});
+			// 焦点图片垂直滚动
+			$("#slider2").Xslider({
+				affect:'scrolly',
+				ctag: 'div',
+				speed:400
+			});
+			// 焦点图片淡隐淡现
+			$("#slider3").Xslider({
+				affect:'fade',
+				ctag: 'div'
+			});
+			// 选项卡
+			$("#slider4").Xslider({
+				affect:'none',
+				ctag: 'div',
+				speed:10
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<img src="img/top (2).jpg"width=100%>
+			<div class="wrap_top">
+				<div class="top">
+					<div id="navMenu">
+						<ul class="menul">
+							<li><a href="index.html">网站首页</a></li>
+							<li><a href="photo.html">图片欣赏</a></li>
+							<li><a href="activities.html">最近活动</a></li>
+							<li><a href="food.html">美食欣赏</a></li>
+							<li><a href="login.html">登录注册</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="wrap_top1">
+				
+					<div id="navMenu1">
+						
+						<ul class="menul1">
+							<li><img src="img/photo2.jpg"width="30"height="25"></li>
+							<li><a href="Scenicspot.html">目的地攻略</a></li>
+							<li><a href="">游记</a></li>
+							
+							<li><a href="guide.html">当地向导</a></li>
+							<li><a href="后台.html">后台</a></li>
+						</ul>
+					</div>
+				
+			</div>
+			
+			
+			<div class="main1">
+			  <div class="matter1">
+			     <div class="left">
+			        <div class="info">张家界要闻</div>
+			        <div id="slider3" class="slider">
+					   <div class="conbox">
+						  <div><a href="#" title=""><img src="img/mountain.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/plane.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/mountain1.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/mountain2.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/mountain3.jpg" width="632" height="210" /></a></div>
+					   </div>
+					   <div class="switcher">
+						  <a href="#" class="cur">1</a>
+						  <a href="#">2</a>
+						  <a href="#">3</a>
+						  <a href="#">4</a>
+						  <a href="#">5</a>
+					   </div>
+			        </div>
+			    </div>
+			  </div>
+			</div>
+			
+			<div class="accontent">
+				<h3>&nbsp;&nbsp;张家界近四十年的发展</h3>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;从默默无闻的大庸到举世闻名的张家界，从山村野地到风景如画，张家界近四十年发生了翻天覆地的变化，老人们一直说张家界是政府造就了它，但是我却认为，张家界的成长，就如同人生一样，从修身到齐家，从齐家到安天下，张家界如今的成就离不开众人的慧眼识珠，更离不开自己的秀外慧中。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;张家界因旅游而建市，因旅游而发展，因旅游而举世闻名，这一切的因果，皆由1979年国画大师吴冠中先生的一篇《养在深闺人未识---张家界是一颗风景明珠》而产生，也因为这一篇文章毫无争议的打开了张家界旅游事业的开端。</p>
+				<img src="img/people.jpg">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;一次不同寻常的考察，省县级大部分干部皆奔赴张家界森林公园，他们从开始的质疑到后来的惊呼，从开始的走马观花到后来的流连忘返，风光旖旎，景色极佳；峰奇石怪，林木清秀；陡壁峡谷，幽静深邃；溪流潺潺，引人人胜。这一切的景色都深深的印在了大家的心中，同时也拉开了张家界旅游开发的序幕。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;光阴飞逝，转瞬间已经到了1999年，而这一年张家界的一次特技表演让它彻底脱胎换骨，从以前的普通旅游景点一跃龙门，彻底成为全世界瞩目的焦点，而这一切都应该感谢中国著名旅游策划大师叶问智先生，在他的精心策划之下，来自不同国家的特技飞行员以超凡的勇气，精湛的技术一举穿越天门洞，实现了人类历史上首次驾机穿越自然山洞的壮举，当天全球就有8亿多人为张家界欢呼，也正是这一点，张家界从此拉开了一系列极限创意事件营销的大幕。</p>
+				<img src="img/plane.jpg">
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;如今，张家界正在以飞速的手段在发展，城市四路工程让张家界市告别拥挤，随着长张高速的开通，荷花机场的扩建张家界已经成为一个国际化的旅游都市，“人生不到张家界，百岁岂能称老翁”这句话在韩国已经广为流传，即使在国际形势的压迫之下，很多人照样慕名而来，只为一睹为快。</p>
+			</div>
+			
+		</div>
+		<div class="bottom">
+			<h6>Powder by weijianhong</h6>
+		</div>
+	</body>
+</html>

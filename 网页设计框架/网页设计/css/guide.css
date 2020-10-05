@@ -1,0 +1,25 @@
+.guide{
+	background: #FFFFFF;
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 98%;
+	
+}
+.guide h2{
+	display: block;
+	width: 100%;
+	float: left;
+}
+.guide p{
+	display: block;
+	width: 100%;
+	float: left;
+	font-family:"bookman old style";
+
+}
+.guide img{
+	float: left;
+	width: 98%;
+	
+}

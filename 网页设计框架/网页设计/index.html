@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>张家界</title>
+		<link href="css/index.css"rel="stylesheet" type="text/css"/>
+		<link href="css/style.css"rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="js/player.js"></script>
+		<script type="text/javascript" src="js/playerslider.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){
+			// 焦点图片水平滚动
+			$("#slider1").Xslider({
+				// 默认配置
+				affect: 'scrollx', //效果  有scrollx|scrolly|fade|none
+				speed: 800, //动画速度
+				space: 6000, //时间间隔
+				auto: true, //自动滚动
+				trigger: 'mouseover', //触发事件 注意用mouseover代替hover
+				conbox: '.conbox', //内容容器id或class
+				ctag: 'div', //内容标签 默认为<a>
+				switcher: '.switcher', //切换触发器id或class
+				stag: 'a', //切换器标签 默认为a
+				current:'cur', //当前切换器样式名称
+				rand:false //是否随机指定默认幻灯图片
+			});
+			// 焦点图片垂直滚动
+			$("#slider2").Xslider({
+				affect:'scrolly',
+				ctag: 'div',
+				speed:400
+			});
+			// 焦点图片淡隐淡现
+			$("#slider3").Xslider({
+				affect:'fade',
+				ctag: 'div'
+			});
+			// 选项卡
+			$("#slider4").Xslider({
+				affect:'none',
+				ctag: 'div',
+				speed:10
+			});
+		});
+		</script>
+	</head>
+	<body>
+		<div class="main">
+			<img src="img/top (2).jpg"width=100%>
+			<div class="wrap_top">
+				<div class="top">
+					<div id="navMenu">
+						<ul class="menul">
+							<li><a href="index.html">网站首页</a></li>
+							<li><a href="photo.html">图片欣赏</a></li>
+							<li><a href="activities.html">最近活动</a></li>
+							<li><a href="food.html">美食欣赏</a></li>
+							<li><a href="login.html">登录注册</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="wrap_top1">
+				
+					<div id="navMenu1">
+						
+						<ul class="menul1">
+							<li><img src="img/photo2.jpg"width="30"height="25"></li>
+							<li><a href="Scenicspot.html">目的地攻略</a></li>
+							<li><a href="diary.html">游记</a></li>
+							
+							<li><a href="guide.html">当地向导</a></li>
+							<li><a href="后台.html">后台</a></li>
+						</ul>
+					</div>
+				
+			</div>
+			
+			
+			<div class="main1">
+			  <div class="matter1">
+			     <div class="left">
+			        <div class="info">最新上传</div>
+			        <div id="slider3" class="slider">
+					   <div class="conbox">
+						  <div><a href="#" title=""><img src="img/images_1.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/images_2.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/images_3.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/images_4.jpg" width="632" height="210" /></a></div>
+						  <div><a href="#" title=""><img src="img/images_5.jpg" width="632" height="210" /></a></div>
+					   </div>
+					   <div class="switcher">
+						  <a href="#" class="cur">1</a>
+						  <a href="#">2</a>
+						  <a href="#">3</a>
+						  <a href="#">4</a>
+						  <a href="#">5</a>
+					   </div>
+			        </div>
+			    </div>
+			  </div>
+			</div>
+			
+			
+			<div class="content">
+				<h1><a href="https://baike.baidu.com/item/%E5%BC%A0%E5%AE%B6%E7%95%8C/370496?fr=aladdin">张家界简介</a></h1>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;张家界，原名“大庸市”，湖南省地级市。辖2个市辖区（永定区、武陵源区）、2个县（慈利县、桑植县）。位于湖南西北部，澧水中上游，属武陵山区腹地。 [1]  张家界因旅游建市，是中国最重要的旅游城市之一，是湘鄂渝黔革命根据地的发源地和中心区域。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;1982年9月，张家界国家森林公园成为中国第一个国家森林公园。</p>
+				<p>&nbsp;&nbsp;&nbsp;&nbsp;1988年8月，张家界武陵源风景名胜区被列入国家重点风景名胜区；1992年，由张家界国家森林公园等三大景区构成的武陵源风景名胜区被联合国教科文组织列入《世界自然遗产名录》；2004年2月，被列入全球首批《世界地质公园》；2007年，被列入中国首批国家5A级旅游景区。 [2]  2017年，被授予“国家森林城市”荣誉称号。 [3]  </p>
+			</div>
+			
+			<div class="matter2top"><h3>重点介绍及小地图</h3></div>
+			<div class="matter2">
+				<div class="left">
+					<ul>
+						<li><a href="Scenicspot.html">天门山森林公园：拔地擎天的天门山,山势陡险峻拔,景色雄奇壮丽,被称为张家界的天然画屏。</a></li>
+						<li><a href="Scenicspot.html">袁家界：位于杉刀沟北麓，是以石英岩为主构成的一座山岳。是张家界公园一处风景集中地。</a></li>
+						<li><a href="Scenicspot.html">杨家界：位于武陵源风景名胜区西北部，东接张家界，北邻天子山，总面积3400公顷。</a></li>
+						<li><a href="Scenicspot.html">金鞭溪：是张家界国家森林公园核心景点，因流经金鞭岩而得名。</a></li>
+						<li><a href="Scenicspot.html">黄石寨：现在又这样一句话叫做“不到黄石寨，枉到张家界”，也有人说五步称奇，七步叫绝；十步之外，目瞪口呆来形容黄石寨。</a></li>
+					</ul>
+				</div>
+				<div class="right">
+					<img src="img/photo3.jpeg" width=100% height=100%>
+				</div>
+			</div>
+		</div>
+		<div class="bottom">
+			<h6>Powder by weijianhong</h6>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,14 @@
+.accontent{
+	float: left;
+	width: 100%;
+	background: #6495ED  ;
+}
+.accontent h3{
+	color: #FFA500;
+}
+.accontent img{
+	
+	display: block;
+	position: relative;
+	margin: auto;
+}
