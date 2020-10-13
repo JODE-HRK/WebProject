@@ -1,0 +1,189 @@
+body {		/*页面整体样式*/
+	font:12px Arial, Helvetica, sans-serif;
+	color: #000;	/*黑色文字*/
+	background-color: #006600;	/*浅色背景*/
+	width:1002px;	/*页面宽1002px*/
+	margin:0px auto;	/*页面自动居中对齐*/
+}
+img{
+  border:none;	/*图像无边框*/
+}
+img.valign{
+  vertical-align:bottom	/*图像和文字垂直对齐方式为底端对齐*/
+}
+.float_r{
+  float:right;			/*向右浮动*/
+}
+.float_l{
+  float:left;			/*向左浮动*/
+}
+#wrapper{	/*页面容器的样式*/
+  width:1002px;/*容器宽1002px*/
+}
+.head{
+	text-align:center;	/*文字居中对齐*/
+	font-size:20px;
+	padding:10px 0 0 0;		/*上、右、下、左的内边距依次为10px,0px,0px,0px*/
+	color:#000000;		
+	font-family:"华文细黑";
+}
+#header{	/*页面顶部容器的样式*/
+  width:100%;	/*容器宽度相对单位*/
+}
+#header .bg_one{	/*页面顶部上面背景的样式*/
+  height:57px;
+  
+  
+}
+.main_title{	/*页面顶部标题的样式*/
+	padding:10px 0 0 0;		/*上、右、下、左的内边距依次为10px,0px,0px,0px*/
+	color:#000000;		/*白色文字*/
+	font-family:"华文细黑";
+	
+}
+.right_button{	/*右侧功能按钮区域的样式*/
+	padding:0px 10px 0 0;	/*上、右、下、左的内边距依次为0px,10px,0px,0px*/
+}
+#header .bg_two{	/*页面顶部下面背景的样式*/
+  height:40px;
+  background:url(../images/main_10.gif) repeat-x	/*背景图像水平重复*/
+}
+.left_button{	/*左侧导航按钮区域的样式*/
+	width:260px;
+	padding:12px 0 0 10px;	/*上、右、下、左的内边距依次为12px,0px,0px,10px*/
+}
+#header a{	/*页面顶部容器中超链接的样式*/
+	color:#fff;	/*白色文字*/
+	text-decoration:none	/*链接无修饰*/
+}
+#header a:hover{	/*页面顶部容器中悬停链接的样式*/
+	text-decoration:underline	/*加下划线*/
+}
+#main{	/*页面主体容器的样式*/
+	clear:both;			/*清除所有浮动*/
+	padding:10px 0px;	/*上、右、下、左的内边距依次为10px,0px,10px,0px*/
+}
+#left{	/*主体容器左侧区域的样式*/
+	width: 150px;	/*左侧宽度为150px*/
+	float:left;			/*向左浮动*/
+	border:1px solid #c5c5c5;	/*边框为1px浅灰色实线*/
+}
+.content{	/*左侧区域内容的样式*/
+	width: 150px;
+}
+.menu {		/*左侧菜单的样式*/
+	width: 150px;	/*菜单宽度为150px*/
+	margin: 0px;	/*外边距0px*/
+	padding: 0px;	/*内边距0px*/
+}
+.menu ul {	/*菜单列表的样式*/
+	list-style-type: none;	/*不显示项目符号*/
+	margin: 0px;
+	padding: 0px;
+	display: block;	/*块级元素*/
+}
+.menu li {/*菜单列项表的样式*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;/*行高26px*/
+	color: #000000;		
+	list-style-type: none;/*不显示项目符号*/
+	display: block;	/*块级元素*/
+	text-decoration: none;	/*无修饰*/
+	height: 26px;
+	width: 150px;
+	padding-left: 0px;
+	}
+li.title{	/*顶级菜单项的样式*/
+	width: 145px;		/*设置宽度145px是为了预留左内边距5px，这样加起来看好是150px（容器的宽度）*/
+	padding:0 0 0 5px;	/*左内边距5px*/
+	text-align:left;	/*文字左对齐*/
+    font-weight:bold;	/*字体加粗*/
+	
+}
+.menu a:link {	/*菜单链接的样式*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;/*行高26px*/
+	color: #333333;	/*深灰色文字*/
+	height: 26px;
+	width: 150px;
+	display: block;/*块级元素*/
+	text-align: center;	/*文字居中对齐*/
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;	/*溢出隐藏*/
+	text-decoration: none;	/*链接无修饰*/
+}
+.menu a:visited {	/*菜单访问过链接的样式*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color: #333333;	/*深灰色文字*/
+	display: block;		/*块级元素*/
+	text-align: center;	/*文字居中对齐*/
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	width: 150px;
+	text-decoration: none;	/*链接无修饰*/
+}
+.menu a:active {	/*菜单激活链接的样式*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	color: #333333;	/*深灰色文字*/
+	height: 26px;
+	width: 150px;
+	display: block;		/*块级元素*/
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;	/*溢出隐藏*/
+	text-decoration: none;	/*链接无修饰*/
+}
+.menu a:hover {	/*菜单悬停链接的样式*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 26px;
+	font-weight: bold;	/*字体加粗*/
+	color: #006600;		/*绿色文字*/
+	text-align: center;
+	display: block;		/*块级元素*/
+	margin: 0px;
+	padding: 0px;
+	height: 26px;
+	width: 150px;
+	text-decoration: none;	/*链接无修饰*/
+}
+#right{	/*主体容器右侧区域的样式*/
+	width: 832px;	/*宽度832px*/
+	float:left;			/*向左浮动*/
+	padding:0 3px;	/*上、右、下、左的内边距依次为0px,3px, 0px,3px*/
+	margin:0 0 0 10px;	/*上、右、下、左的外边距依次为0px,0px, 0px,10px*/
+	border:1px solid #c5c5c5;/*边框为1px浅灰色实线*/
+
+}
+#right form{	/*右侧区域表单的样式*/
+	margin:15px 0;	/*上、右、下、左的外边距依次为15px,0px,15px,0px*/
+}
+#right .title{	/*右侧区域上端标题的样式*/
+	color:#fff;	/*白色文字*/
+}
+table.line_table{/*右侧区域细线表格的样式*/
+	border:1px solid #5c5c5c;/*边框为1px浅灰色实线*/
+	margin-top:5px;/*上外边距5px*/
+	padding:3px;/*四周内边距3px*/
+}
+#footer{	/*页面底部容器的样式*/
+	clear:both;	/*清除所有浮动*/
+	width:100%;
+	float:left;	/*向左浮动*/
+	margin:8px 0 0 0;/*上、右、下、左的外边距依次为8px,0px,0px,0px*/
+	height:50px;
+	text-align:center;/*文字居中对齐*/
+	border:1px solid #c5c5c5;	/*设置上边框为1px实线*/
+}
+#footer p{	/*页面底部容中段落器的样式*/
+	padding:5px 0 0 0		/*上、右、下、左的内边距依次为5px,0px,0px,0px*/
+}

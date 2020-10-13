@@ -1,0 +1,108 @@
+﻿
+
+img{
+	border:0px;				/*图片无边框*/
+}
+#wrapper{					/*设置主体容器样式*/
+			
+	background: #FFDAB9;
+	
+	display: block;
+	
+	
+	overflow:hidden			/*溢出内容隐藏*/;
+	clear: both;
+	height: 500px;
+}
+
+
+
+
+
+
+.contact_form{		/*设置表单容器的样式*/
+	
+	float: left;
+	width:355px;
+	display: block;
+	padding:25px 25px 0 20px;
+	margin:10% 0 0 25%;
+	border:1px #DFD1D2 dashed;			/*表单边框为1px灰色虚线*/
+	position:relative;			/*相对定位*/
+	background: #FFB6C1;
+}
+.contact_form a{	/*设置表单中超链接的样式*/
+	color:#d81e7a;
+}
+.form_subtitle{		/*设置表单左上角标题的样式*/
+	position:absolute;
+	top:-11px;
+	left:7px;
+	width:auto;
+	height:20px;
+	background-color:#565656;
+	text-align:center;
+	padding:0 7px 0 7px;
+	color:#fff;
+	font-size:11px;
+	line-height:20px;
+}
+.form_row{			/*设置表单每行的样式*/
+	width:335px;
+	clear:both;		/*清除所有浮动*/
+	padding:10px 0 10px 0;
+	color:#a53d17;
+}
+label.contact{		/*设置表单中标签的样式*/
+	width:75px;
+	float:left;		/*向左浮动*/
+	font-size:12px;
+	text-align:right;
+	padding:4px 5px 0 0;
+	color: #333333;
+}
+input.contact_input{	/*设置表单中文本框的样式*/
+	width:253px;
+	height:18px;
+	background-color:#fff;
+	color:#999999;
+	border:1px #DFDFDF solid;		/*文本框的边框为1px灰色实线*/
+	float:left;		/*向左浮动*/
+}
+textarea.contact_textarea{	/*设置表单中文本域的样式*/
+	width:253px;
+	height:120px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #999999;
+	background-color:#fff;
+	border:1px #DFDFDF solid;		/*文本域的边框为1px灰色实线*/
+	float:left;	/*向左浮动*/
+}
+input.register{		/*设置表单中注册按钮的样式*/
+	width:71px;
+	height:25px;
+	border:none;
+	cursor:pointer;
+	text-align:center;	/*文字居中对齐*/
+	float:right;
+	margin-right: 10px;
+	color:#FFFFFF;
+	background:url(../img/register_bt.gif) no-repeat center;/*背景图像无重复中央对齐*/
+}
+.terms{		/*设置表单中服务条款区域的样式*/
+	padding:0 0 0 80px;
+}
+.button{
+	width:71px;
+	height:25px;
+	border:none;
+	padding-top: 4px;
+	text-align: center;	/*文字居中对齐*/
+	float:right;
+	color:#1693FF;
+	/*background:url(../img/register_bt.gif) no-repeat center;*/
+	font-size: 15px;
+	
+}
+

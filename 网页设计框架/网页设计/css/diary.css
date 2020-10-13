@@ -1,0 +1,26 @@
+.head{
+	display: block;
+	float: left;
+	width: 100%;
+}
+.diary{
+	margin-top: 10px;
+	display: block;
+	float: left;
+	border: 1px solid #1693FF;
+	font-family: arial;
+	color: #000000;
+}
+.diary h2,a{
+	color: #FFA500;
+	margin: 0px;
+}
+.diary img{
+	display: block;
+	float: left;
+}
+.post-content p{
+	color: #000000;
+	font-family: arial;
+	font-style: herit;	
+}

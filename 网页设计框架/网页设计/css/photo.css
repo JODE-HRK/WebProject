@@ -1,0 +1,84 @@
+.center{
+	float: left;
+	margin: 1px;
+	width: 100%;
+}
+.center img{
+	display: block;
+	position: relative;
+	margin: auto;
+	width: 100%;
+}
+
+
+.phcontent{
+	width: 100%;
+	float: left;
+}
+.phcontent .left{
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+.phcontent .rightback{
+	width:50%;
+	float: left;
+	height: 280px;
+	background:url(../img/poemback.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.phcontent .right{
+	width: 50%;
+	position: relative;
+	margin:70px auto auto 180px;
+}
+
+
+.phcontent1{
+	width: 100%;
+	float: left;
+}
+.phcontent1 .right{
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+.phcontent1 .leftback{
+	width:50%;
+	float: left;
+	height: 280px;
+	background:url(../img/poemback1.jpg) ;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.phcontent1 .left{
+	float:left;
+	width: 50%;
+	position: relative;
+	margin:70px auto auto 180px;
+}
+
+
+.end img{
+	width: 24.5%;
+	border: 1px solid #000000;
+	height: 100px;
+}
+
+
+.bottom{
+	margin-top: 3px;
+	background: #696969 ;
+	width: 100%;
+	height: 100px;
+	display: block;
+	float: left;
+	
+}
+.bottom h6{
+	text-align: center;
+	line-height: 34px;
+}

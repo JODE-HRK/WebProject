@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>张家界后台 </title>
+</head>
+<link type="text/css" href="css/后台.css"  rel="stylesheet" />
+
+<body>
+  <div id="wrapper">
+  	<div id="header">
+  		<div class="head"><h3>张家界后台管理</h3></div>
+  		<div class="main">
+  			<div id="left">
+			  		<div class="content">
+			        <img src="images/menu_topline.gif" width="150" height="5" />
+			        <ul class="menu">
+			          <li class="title">景点管理</li>
+			          <li><a href="search.html">查询景点</a></li>
+					  <li><a href="update.html">修改景点</a></li>
+			          <li><a href="add.html">添加景点</a></li>
+			         </ul>
+			      </div>
+			      <div class="content">
+			        <img src="images/menu_topline.gif" width="150" height="5" />
+			        <ul class="menu">
+			          <li class="title">相册管理</li>
+			          <li><a href="#">查询相册</a></li>
+			          <li><a href="#">修改相册</a></li>
+			          <li><a href="#">添加相册</a></li>
+			        </ul>
+			      </div>
+			  </div>
+			      <div id="right">
+				        <table width="820" border="0" align="center" cellpadding="0" cellspacing="0">
+				  		<tr>
+				            <td height="30">
+				              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				                <tr>
+				                  <td height="24" bgcolor="#353c44">
+				                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				                      <tr>
+				                        <td>
+				                          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+				                            <tr>
+				                              
+				                              <td width="94%" valign="bottom"><span class="title"> 添加景点</span></td>
+				                            </tr>
+				                          </table>
+				                        </td>
+				 
+				                      </tr>
+				                    </table>
+				                  </td>
+				                </tr>
+				              </table>
+				            </td>
+				          </tr> 
+				          <tr>
+				            <td>
+				              <form>
+				                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+				                  <tr>
+				                    
+				                    
+							        <td width="43%" rowspan="10" valign="top">
+							          <table  width="100%" height="166%" border="0" cellpadding="0" cellspacing="0">
+				                        <tr>
+				                          <td height="140">
+					                        <table width="100%" height="144" border="0" cellpadding="0" cellspacing="0" class="line_table">
+				                              <tr>
+				                                <td width="7%" height="27" background="images/news-title-bg.gif">
+				                                  <img src="images/news-title-bg.gif" width="2" height="27">                                </td>
+				                                <td width="93%" background="images/news-title-bg.gif">最新动态</td>
+				                              </tr>
+				                              <tr>
+				                                <td height="102" valign="top">&nbsp;</td>
+				                                <td height="102" valign="top">张家界后台管理程序即将升级，敬请关注。</td>
+				                              </tr>
+				                              <tr>
+				                                <td height="5" colspan="2">&nbsp;</td>
+				                              </tr>
+				                            </table>	                      </td>
+				                        </tr>
+				                        <tr>
+				                          <td height="30">&nbsp;</td>
+				                        </tr>
+				                        <tr>
+				                          <td height="171">
+					                        <table width="100%" height="144" cellpadding="0" cellspacing="0" class="line_table">
+				                              <tr>
+				                                <td width="7%" height="27" background="images/news-title-bg.gif">
+				                                  <img src="images/news-title-bg.gif" width="2" height="27">                                </td>
+				                                <td width="93%" background="images/news-title-bg.gif">备注</td>
+				                              </tr>
+				                              <tr>
+				                                <td height="102" valign="top">&nbsp;</td><td height="102" valign="top">
+				                                  <textarea name="textarea" cols="48" rows="8">此处填写备注信息......</textarea>
+				                                </td>
+				                              </tr>
+				                               <tr>
+				                                 <td height="5" colspan="2">&nbsp;</td>
+				                               </tr>
+				                            </table>	                       </td>
+				                        </tr>
+				                      </table>                     </td>
+				                  </tr>
+				                   <tr>
+				                     
+				                     <td width="11%" align="right">景点名称:</td><td width="46%"><input type="text" name="type"></td></tr>
+				                   <tr>
+				                     
+				                     <td width="11%" align="right">发布时间:</td><td width="46%"><input type="text" name="date" onFocus="HS_setDate(this)"></td></tr>
+				                   <tr>
+				                     <td width="11%" align="right">等级:</td><td width="46%"><input type="text" name="grade"></td></tr>
+				                   <tr><td width="11%" align="right">图片路径:</td>
+				                     <td width="46%"><input type="file" name="file" size="30"><input type="button" name="upload" value="上传"></td>
+					              </tr>
+				                   <tr>
+				           		     <td width="11%" align="right">介绍内容:</td>
+				           		     <td width="46%"><textarea name="content" rows="6" cols="40">张家界景点丰富，是国家一级旅游景区...</textarea></td>
+					              </tr>
+				                   <tr>
+				            <td width="11%" align="right">模板:</td>
+				            <td width="46%"><select>
+				                             <option value="" selected>请选择</option>
+				                             <option value="模板一">模板一</option>
+				                             <option value="模板二">模板二</option>
+				            </select>                       </td>
+					              </tr>
+				                   <tr>
+				                     <td width="11%">&nbsp;</td>
+				                     <td width="46%"><input type="submit" value="添 加">&nbsp;&nbsp;<input type="reset" value="重  置"></td>
+					              </tr>
+				                </table>
+				              </form>
+				            </td>
+				          </tr>
+				        </table>
+				      </div>
+    
+  			</div>	
+  		</div>
+  	</div>
+  </div>
+</body>
+</html>
