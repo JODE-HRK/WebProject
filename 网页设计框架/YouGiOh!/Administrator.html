@@ -1,0 +1,144 @@
+<html>
+
+<head>
+    <title>新卡上传</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1309180_m0vigzfu7y.css">
+    <style type="text/css">
+        .bod1 {
+            /*background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);*/
+            /*background-image: url(" 2558.jpg");*/
+            /*background-size:cover;*/
+            background: #aa4b6b;
+            /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+            /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #3b8d99, #6b6b83, #aa4b6b);
+            /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        }
+        
+        .btn {
+            position: relative;
+            display: inline-block;
+            width: 75px;
+            height: 25px;
+            overflow: hidden;
+            text-align: center;
+            font-size: 14px;
+            line-height: 25px;
+            vertical-align: center;
+            border: 1px solid #23c6c8;
+            background-color: #23c6c8;
+            color: #ffffff;
+            border-radius: 3px;
+        }
+        
+        .btn:hover {
+            border: 1px solid #23babc;
+            background-color: #23babc;
+        }
+        
+        .btn input {
+            position: absolute;
+            left: 0;
+            top: 0;
+            opacity: 0;
+        }
+        
+        #main_container {
+            width: 760px;
+            height: auto;
+            margin: auto;
+            padding-top: 10%;
+        }
+        
+        .input {
+            border: 1px solid #ccc;
+            padding: 7px 0px;
+            border-radius: 3px;
+            padding-left: 5px;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+            -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+            -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+            transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
+        }
+        
+        .input:focus {
+            border-color: #66afe9;
+            outline: 0;
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+        }
+    </style>
+</head>
+
+<body class="bod1" id="main_container">
+    <form>
+        名称 <input type="text" id="name" value="" size="10" class="input">
+        <br>
+        <br> 属性
+        <select name="attribute" class="input">
+            <option >暗</option>
+            <option>光</option>
+            <option>地</option>
+            <option>水</option>
+            <option>炎</option>
+            <option>风</option>
+            <option>神</option>
+            <option>冥</option>
+        </select>
+
+
+        <br>
+        <br>种族
+        <input type="text" id="race" value="" size="10" class="input">
+        <br>
+
+        <br> 效果/介绍：
+        <br>
+        <textarea cols="35" rows="10" id="effect" class="input">
+        </textarea>
+        <br> 请上传卡牌图片
+        <br>
+        <label type="button" class="btn">
+            <span>选择图片</span>
+            <input type="file" />
+        </label>
+        <br>
+        <br>
+        <br>
+        <label type="button" class="btn">
+            <span>提交</span>
+            <input type="submit" value="提交" onclick="getjson()">
+        </label>
+
+        <label type="button" class="btn">
+            <span>重置</span>
+            <input type="submit" value="提交">
+        </label>
+    </form>
+
+    <script>
+        function getjson() {
+            var info = {
+                "name": "",
+                "attribute": "",
+                "race": "",
+                "effect": ""
+            };
+
+            info.name = document.getElementById(name).innerHTML;
+            info.attribute = document.getElementById(attribute).innerHTML;
+            info.race = document.getElementById(race).innerHTML;
+            info.effect = document.getElementById(effect).innerHTML;
+            console.log(info);
+        }
+
+        function clear() {
+
+        }
+    </script>
+</body>
+
+</html>
